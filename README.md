@@ -1,4 +1,4 @@
-# Data-collecting-system
+# Data collecting system
 This system could collect the mobile sensor data of your phone and store the data to MongoDB database. 
 The whole files and folders except the client folder is server end program based on Node.js with Express framework, while the client folder
 contains the client end program based on vue CLI3. Before reading the program, it is better to get familiar with Node.js, Express framework,
