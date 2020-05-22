@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server for WebLogger.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm run client --prefix client",
+    "lint": "./node_modules/.bin/eslint .",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Charles",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.2",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
