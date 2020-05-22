@@ -85,11 +85,11 @@ $ npm run client
 ```
 If `Localhost` is available, you have already run the client successfully.
 ### Configure the network
-You need to have `Nginx` in your computer. After that, you can run the following command to generate the `dist` in the client folder.
+You need to have `Nginx` in your computer. After that, you can run the following command to generate the `/dist` folder in the client folder.
 ```
 $ npm run build
 ```
-Configure the `dist` in the Nginx, then you could see the project online.
+Configure the `/dist` folder in the Nginx, then you could see the project online.
 
 ## Run the server and client at the same time
 In server, you could run the following command to run the server and client at the same time. It is convenient for developers.
